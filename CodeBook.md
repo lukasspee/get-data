@@ -3,6 +3,7 @@
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 The following processing has been applied to the data:
+
 1. Using the embedded accelerometer and gyroscope of the smart phone, a  3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz has been captured.
 2. The raw signals were pre-processed by applying noise filters and sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window).
 3. The sensor acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity using a Butterworth low-pass filter with a corner frequency of 20 Hz and a cutoff frequency of 0.3 Hz.
@@ -20,39 +21,39 @@ These are the variables numbered 3 to 88 in the list at the end of this section.
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ: the body acceleration signals obtained in step 3 from the previous section.
-tGravityAcc-XYZ: the gravity acceleration signals obtained in step 3 from the previous section.
-tBodyAccJerk-XYZ: the body linear acceleration Jerk signals obtained in step 4 from the previous section.
-tBodyGyro-XYZ: the body angular velocity signals obtained in step 2 from the previous section.
-tBodyGyroJerk-XYZ: the body angular velocity Jerk signals obtained in step 4 from the previous section.
-tBodyAccMag: the magnitude for the body linear acceleration signals obtained in step 5 from the previous section.
-tGravityAccMag: the magnitude for the gravity linear acceleration signals obtained in step 5 from the previous section.
-tBodyAccJerkMag: the magnitude for the body linear acceleration Jerk signals obtained in step 5 from the previous section.
-tBodyGyroMag: the magnitude for the body angular velocity signals obtained in step 5 from the previous section.
-tBodyGyroJerkMag: the magnitude for the body angular velocity Jerk signals obtained in step 5 from the previous section.
-fBodyAcc-XYZ: the frequency for the body acceleration signals obtained in step 6 from the previous section.
-fBodyAccJerk-XYZ: the frequency for the body acceleration Jerk signals obtained in step 6 from the previous section.
-fBodyGyro-XYZ: the frequency for the body angular velocity signals obtained in step 6 from the previous section.
-fBodyAccMag: the frequency for the magnitude for the body linear acceleration signals obtained in step 6 from the previous section.
-fBodyAccJerkMag: the frequency for the magnitude for the body linear acceleration Jerk signals obtained in step 6 from the previous section.
-fBodyGyroMag: the frequency for the magnitude for the body angular velocity signals obtained in step 6 from the previous section.
-fBodyGyroJerkMag: the frequency for the magnitude for the body angular velocity Jerk signals obtained in step 6 from the previous section.
+* tBodyAcc-XYZ: the body acceleration signals obtained in step 3 from the previous section.
+* tGravityAcc-XYZ: the gravity acceleration signals obtained in step 3 from the previous section.
+* tBodyAccJerk-XYZ: the body linear acceleration Jerk signals obtained in step 4 from the previous section.
+* tBodyGyro-XYZ: the body angular velocity signals obtained in step 2 from the previous section.
+* tBodyGyroJerk-XYZ: the body angular velocity Jerk signals obtained in step 4 from the previous section.
+* tBodyAccMag: the magnitude for the body linear acceleration signals obtained in step 5 from the previous section.
+* tGravityAccMag: the magnitude for the gravity linear acceleration signals obtained in step 5 from the previous section.
+* tBodyAccJerkMag: the magnitude for the body linear acceleration Jerk signals obtained in step 5 from the previous section.
+* tBodyGyroMag: the magnitude for the body angular velocity signals obtained in step 5 from the previous section.
+* tBodyGyroJerkMag: the magnitude for the body angular velocity Jerk signals obtained in step 5 from the previous section.
+* fBodyAcc-XYZ: the frequency for the body acceleration signals obtained in step 6 from the previous section.
+* fBodyAccJerk-XYZ: the frequency for the body acceleration Jerk signals obtained in step 6 from the previous section.
+* fBodyGyro-XYZ: the frequency for the body angular velocity signals obtained in step 6 from the previous section.
+* fBodyAccMag: the frequency for the magnitude for the body linear acceleration signals obtained in step 6 from the previous section.
+* fBodyAccJerkMag: the frequency for the magnitude for the body linear acceleration Jerk signals obtained in step 6 from the previous section.
+* fBodyGyroMag: the frequency for the magnitude for the body angular velocity signals obtained in step 6 from the previous section.
+* fBodyGyroJerkMag: the frequency for the magnitude for the body angular velocity Jerk signals obtained in step 6 from the previous section.
 
 The set of variables that were estimated from these signals and included in this dataset are:
 
-mean: Mean value
-std: Standard deviation
+* mean: Mean value
+* std: Standard deviation
 
 Each combination of the signals and variables described above result in one of the variables from
 3 to 82 in the list at the end of this section.
 
 The following additional vectors result from step 7 from the previous section. These are used on the angle variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+* gravityMean
+* tBodyAccMean
+* tBodyAccJerkMean
+* tBodyGyroMean
+* tBodyGyroJerkMean
 
 These result in the variables 83 to 88 in the list at the end of this section.
 
@@ -62,8 +63,8 @@ is no unit associated with the values of these variables.
 
 ### List of variables
 
-1. subject.id: each subject is identified by a unique number from 1 to 30.
-2. activity.name: the name of the activity that was performed, possible valuea are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING
+1. subject.id: Each subject is identified by a unique number from 1 to 30.
+2. activity.name: The name of the activity that was performed, possible valuea are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING
 3. tBodyAcc.mean.X
 4. tBodyAcc.mean.Y
 5. tBodyAcc.mean.Z
